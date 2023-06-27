@@ -8,6 +8,8 @@ from streamlit_extras.dataframe_explorer import dataframe_explorer
 
 #add_logo("data/UN_Logo.png", height=100)
 
+st.sidebar.markdown("# Dashboard")
+
 questions = [
     {
         'question': 'In which phase of the  do you feel your digital channel implementation is?',
