@@ -43,12 +43,12 @@ questions = [
             '5': 5
         },
         'recomendations': {
-            0: '**IT Infrastructure:** <br>Outdated or unreliable technology is being used, hindering the effectiveness of online protection systems. Recommendation: Invest in upgrading technology infrastructure to ensure reliable and up-to-date systems.',
-            1: '**IT Infrastructure:** <br>The technology used is somewhat outdated and may have limitations in supporting online protection systems. Recommendation: Assess and prioritize technology upgrades to enhance system performance and reliability.',
-            2: '**IT Infrastructure:** <br>The technology used is average but may require updates to align with emerging trends and advancements. Recommendation: Regularly evaluate and update technology solutions to meet current and future needs.',
-            3: '**IT Infrastructure:** <br>The technology used is up-to-date and supports online protection systems effectively. Recommendation: Stay informed about emerging technologies to identify opportunities for enhancing system capabilities.',
-            4: '**IT Infrastructure:** <br>The technology used is modern and robust, meeting the requirements of online protection systems. Recommendation: Continuously monitor and evaluate technology advancements to ensure the systems remain cutting-edge.',
-            5: '**IT Infrastructure:** <br>The technology used is state-of-the-art, providing a strong foundation for online protection systems. Recommendation: Foster collaboration with technology experts and industry leaders to stay at the forefront of technological advancements.'
+            0: '**Technology in the future:** <br>Outdated or unreliable technology is being used, hindering the effectiveness of online protection systems. Recommendation: Invest in upgrading technology infrastructure to ensure reliable and up-to-date systems.',
+            1: '**Technology in the future:** <br>The technology used is somewhat outdated and may have limitations in supporting online protection systems. Recommendation: Assess and prioritize technology upgrades to enhance system performance and reliability.',
+            2: '**Technology in the future:** <br>The technology used is average but may require updates to align with emerging trends and advancements. Recommendation: Regularly evaluate and update technology solutions to meet current and future needs.',
+            3: '**Technology in the future:** <br>The technology used is up-to-date and supports online protection systems effectively. Recommendation: Stay informed about emerging technologies to identify opportunities for enhancing system capabilities.',
+            4: '**Technology in the future:** <br>The technology used is modern and robust, meeting the requirements of online protection systems. Recommendation: Continuously monitor and evaluate technology advancements to ensure the systems remain cutting-edge.',
+            5: '**Technology in the future:** <br>The technology used is state-of-the-art, providing a strong foundation for online protection systems. Recommendation: Foster collaboration with technology experts and industry leaders to stay at the forefront of technological advancements.'
         }
     },
     {
@@ -63,12 +63,12 @@ questions = [
             '5': 5
         },
         'recomendations': {
-            0: '**IT Infrastructure:** <br>Insufficient funds are being raised, limiting the resources available for online protection systems. Recommendation: Develop comprehensive fundraising strategies and explore diverse funding sources to secure necessary financial support.',
-            1: '**IT Infrastructure:** <br>The fundraising efforts are somewhat limited, and additional funding sources should be explored. Recommendation: Expand fundraising initiatives and engage with potential donors and sponsors to increase financial support.',
-            2: '**IT Infrastructure:** <br>Fundraising efforts are average, but more proactive approaches are needed to secure sustainable funding. Recommendation: Implement targeted fundraising campaigns, grant applications, and partnership opportunities to maximize financial resources.',
-            3: '**IT Infrastructure:** <br>Fundraising efforts are adequate and provide a stable financial foundation for online protection systems. Recommendation: Maintain a diversified fundraising approach to sustain and grow financial support.',
-            4: '**IT Infrastructure:** <br>Fundraising efforts are effective, resulting in substantial resources for online protection systems. Recommendation: Continue building strong relationships with donors and sponsors, leveraging success stories to attract more support.',
-            5: '**IT Infrastructure:** <br>The fundraising efforts are exceptional, ensuring abundant resources for online protection systems. Recommendation: Share fundraising best practices and collaborate with other organizations to further strengthen financial sustainability.'
+            0: '**Fundraising:** <br>Insufficient funds are being raised, limiting the resources available for online protection systems. Recommendation: Develop comprehensive fundraising strategies and explore diverse funding sources to secure necessary financial support.',
+            1: '**Fundraising:** <br>The fundraising efforts are somewhat limited, and additional funding sources should be explored. Recommendation: Expand fundraising initiatives and engage with potential donors and sponsors to increase financial support.',
+            2: '**Fundraising:** <br>Fundraising efforts are average, but more proactive approaches are needed to secure sustainable funding. Recommendation: Implement targeted fundraising campaigns, grant applications, and partnership opportunities to maximize financial resources.',
+            3: '**Fundraising:** <br>Fundraising efforts are adequate and provide a stable financial foundation for online protection systems. Recommendation: Maintain a diversified fundraising approach to sustain and grow financial support.',
+            4: '**Fundraising:** <br>Fundraising efforts are effective, resulting in substantial resources for online protection systems. Recommendation: Continue building strong relationships with donors and sponsors, leveraging success stories to attract more support.',
+            5: '**Fundraising:** <br>The fundraising efforts are exceptional, ensuring abundant resources for online protection systems. Recommendation: Share fundraising best practices and collaborate with other organizations to further strengthen financial sustainability.'
         }
     },
     {
@@ -83,12 +83,12 @@ questions = [
             '5': 5
         },
         'recomendations': {
-            0: '**IT Infrastructure:** <br>Confidentiality measures are not in place or poorly implemented, risking the privacy and safety of users. Recommendation: Implement strict confidentiality protocols and robust data protection measures to ensure user privacy and safety.',
-            1: '**IT Infrastructure:** <br>Confidentiality measures are partially implemented, but there are gaps that need to be addressed. Recommendation: Conduct a thorough review of existing confidentiality measures and enhance them to meet industry standards and regulatory requirements.',
-            2: '**IT Infrastructure:** <br>Confidentiality measures are average, but further improvements are necessary to ensure the privacy and confidentiality of user data. Recommendation: Regularly assess and update confidentiality measures to align with evolving data protection practices.',
-            3: '**IT Infrastructure:** <br>Confidentiality measures are well-established and effectively implemented to protect user data and maintain privacy. Recommendation: Continuously monitor and update confidentiality measures to address emerging threats and vulnerabilities.',
-            4: '**IT Infrastructure:** <br>Confidentiality measures are robust, meeting or exceeding industry standards for protecting user privacy. Recommendation: Share best practices and collaborate with other organizations to further enhance confidentiality measures.',
-            5: '**IT Infrastructure:** <br>The highest level of confidentiality measures is in place, ensuring the utmost protection of user data and privacy. Recommendation: Conduct regular audits and security assessments to maintain the highest level of confidentiality standards.'
+            0: '**Confidentiality:** <br>Confidentiality measures are not in place or poorly implemented, risking the privacy and safety of users. Recommendation: Implement strict confidentiality protocols and robust data protection measures to ensure user privacy and safety.',
+            1: '**Confidentiality:** <br>Confidentiality measures are partially implemented, but there are gaps that need to be addressed. Recommendation: Conduct a thorough review of existing confidentiality measures and enhance them to meet industry standards and regulatory requirements.',
+            2: '**Confidentiality:** <br>Confidentiality measures are average, but further improvements are necessary to ensure the privacy and confidentiality of user data. Recommendation: Regularly assess and update confidentiality measures to align with evolving data protection practices.',
+            3: '**Confidentiality:** <br>Confidentiality measures are well-established and effectively implemented to protect user data and maintain privacy. Recommendation: Continuously monitor and update confidentiality measures to address emerging threats and vulnerabilities.',
+            4: '**Confidentiality:** <br>Confidentiality measures are robust, meeting or exceeding industry standards for protecting user privacy. Recommendation: Share best practices and collaborate with other organizations to further enhance confidentiality measures.',
+            5: '**Confidentiality:** <br>The highest level of confidentiality measures is in place, ensuring the utmost protection of user data and privacy. Recommendation: Conduct regular audits and security assessments to maintain the highest level of confidentiality standards.'
         }
     },
     {
@@ -103,12 +103,12 @@ questions = [
             '5': 5
         },
         'recomendations': {
-            0: '**IT Infrastructure:** <br>The online protection system is unresponsive or slow, leading to delays in providing support and assistance. Recommendation: Optimize system performance and responsiveness through technical improvements and resource allocation.',
-            1: "**IT Infrastructure:** <br>The system's responsiveness is inconsistent, causing occasional delays in addressing user needs. Recommendation: Identify and address the root causes of responsiveness issues to ensure a consistent and timely response.",
-            2: "**IT Infrastructure:** <br>he online protection system's responsiveness is average, but there is room for improvement in terms of speed and efficiency. Recommendation: Implement measures to enhance system responsiveness, such as optimizing server infrastructure and streamlining processes.",
-            3: '**IT Infrastructure:** <br>The online protection system is generally responsive, providing timely assistance to users. Recommendation: Monitor system responsiveness and conduct regular user feedback assessments to maintain satisfactory performance.',
-            4: '**IT Infrastructure:** <br>The online protection system is highly responsive, offering quick and efficient support to users. Recommendation: Continuously evaluate and optimize system performance to maintain a high level of responsiveness.',
-            5: '**IT Infrastructure:** <br>The online protection system demonstrates exceptional responsiveness, ensuring immediate support and assistance to users. Recommendation: Share best practices and collaborate with other organizations to advance responsiveness standards across the industry.'
+            0: '**Responsiveness:** <br>The online protection system is unresponsive or slow, leading to delays in providing support and assistance. Recommendation: Optimize system performance and responsiveness through technical improvements and resource allocation.',
+            1: "**Responsiveness:** <br>The system's responsiveness is inconsistent, causing occasional delays in addressing user needs. Recommendation: Identify and address the root causes of responsiveness issues to ensure a consistent and timely response.",
+            2: "**Responsiveness:** <br>he online protection system's responsiveness is average, but there is room for improvement in terms of speed and efficiency. Recommendation: Implement measures to enhance system responsiveness, such as optimizing server infrastructure and streamlining processes.",
+            3: '**Responsiveness:** <br>The online protection system is generally responsive, providing timely assistance to users. Recommendation: Monitor system responsiveness and conduct regular user feedback assessments to maintain satisfactory performance.',
+            4: '**Responsiveness:** <br>The online protection system is highly responsive, offering quick and efficient support to users. Recommendation: Continuously evaluate and optimize system performance to maintain a high level of responsiveness.',
+            5: '**Responsiveness:** <br>The online protection system demonstrates exceptional responsiveness, ensuring immediate support and assistance to users. Recommendation: Share best practices and collaborate with other organizations to advance responsiveness standards across the industry.'
         }
     },
     {
@@ -123,12 +123,12 @@ questions = [
             '5': 5
         },
         'recomendations': {
-            0: '**IT Infrastructure:** <br>The user experience is extremely poor, making it difficult for users to navigate and access the necessary support. Recommendation: Conduct a comprehensive user experience assessment and redesign the system to improve usability and accessibility.',
-            1: '**IT Infrastructure:** <br>',
-            2: '**IT Infrastructure:** <br>',
-            3: '**IT Infrastructure:** <br>',
-            4: '**IT Infrastructure:** <br>',
-            5: '**IT Infrastructure:** <br>'
+            0: '**User Experience:** <br>The user experience is extremely poor, making it difficult for users to navigate and access the necessary support. Recommendation: Conduct a comprehensive user experience assessment and redesign the system to improve usability and accessibility.',
+            1: '**User Experience:** <br>The user experience is below average, requiring users to overcome significant challenges to access and utilize the online protection system. Recommendation: Identify pain points in the user journey and implement iterative improvements to enhance the overall user experience.',
+            2: '**User Experience:** <br>The user experience is average, but there are areas that can be enhanced to provide a smoother and more intuitive user interface. Recommendation: Gather user feedback and make incremental adjustments to optimize the user experience.',
+            3: '**User Experience:** <br>The user experience is generally satisfactory, with an interface and features that facilitate easy access to support and resources. Recommendation: Continuously monitor user feedback and make necessary refinements to maintain a positive user experience.',
+            4: "**User Experience:** <br>The user experience is good, with intuitive navigation and efficient access to the online protection system's features and services. Recommendation: Conduct periodic usability testing and incorporate user feedback to further enhance the user experience.",
+            5: '**User Experience:** <br>The user experience is excellent, offering a seamless and engaging interface that enables users to access support effortlessly. Recommendation: Share best practices in user experience design and leverage user feedback to continue refining and innovating the user interface.'
         }
     },
     {
@@ -143,12 +143,12 @@ questions = [
             '5': 5
         },
         'recomendations': {
-            0: '**IT Infrastructure:** <br>',
-            1: '**IT Infrastructure:** <br>',
-            2: '**IT Infrastructure:** <br>',
-            3: '**IT Infrastructure:** <br>',
-            4: '**IT Infrastructure:** <br>',
-            5: '**IT Infrastructure:** <br>'
+            0: '**Staff Expertise:** <br>The staff lacks the necessary expertise and training to effectively support users through the online protection system. Recommendation: Provide comprehensive training and professional development opportunities to enhance staff expertise.',
+            1: '**Staff Expertise:** <br>Staff expertise is limited, requiring additional training and resources to ensure effective support provision. Recommendation: Implement a continuous learning program to upskill staff members and stay updated with emerging trends and best practices.',
+            2: '**Staff Expertise:** <br>Staff members possess average expertise, but there is room for improvement in certain areas to deliver optimal support. Recommendation: Conduct regular assessments of staff skills and knowledge gaps and provide targeted training to address specific areas of improvement.',
+            3: '**Staff Expertise:** <br>Staff members exhibit satisfactory expertise, enabling them to provide quality support to users. Recommendation: Establish a knowledge-sharing system and foster a learning culture to continuously enhance staff expertise.',
+            4: '**Staff Expertise:** <br>Staff members demonstrate advanced expertise, equipped with the necessary skills and knowledge to address a wide range of user needs effectively. Recommendation: Encourage staff members to participate in industry events and training programs to stay at the forefront of online protection practices.',
+            5: '**Staff Expertise:** <br>Staff members possess exceptional expertise, representing industry leaders in providing support through the online protection system. Recommendation: Recognize and reward staff achievements and expertise while fostering a collaborative environment for knowledge sharing.'
         }
     },
     {
@@ -183,12 +183,12 @@ questions = [
             '5': 5
         },
         'recomendations': {
-            0: '**IT Infrastructure:** <br>',
-            1: '**IT Infrastructure:** <br>',
-            2: '**IT Infrastructure:** <br>',
-            3: '**IT Infrastructure:** <br>',
-            4: '**IT Infrastructure:** <br>',
-            5: '**IT Infrastructure:** <br>'
+            0: '**Cultural and Linguistic Sensitivity:** <br>The online protection system lacks cultural and linguistic sensitivity, failing to address the diverse needs of users from different backgrounds. Recommendation: Incorporate cultural competency training for staff members and ensure the availability of multilingual resources and support.',
+            1: '**Cultural and Linguistic Sensitivity:** <br>There is limited cultural and linguistic sensitivity in the online protection system, requiring improvements to ensure inclusivity. Recommendation: Conduct a cultural assessment and collaborate with diverse communities to incorporate their perspectives and address cultural and linguistic barriers.',
+            2: "**Cultural and Linguistic Sensitivity:** <br>The online protection system demonstrates average cultural and linguistic sensitivity but can benefit from further enhancements. Recommendation: Engage with multicultural organizations and language experts to review and improve the system's cultural responsiveness.",
+            3: "**Cultural and Linguistic Sensitivity:** <br>The online protection system shows satisfactory cultural and linguistic sensitivity, considering the diverse needs and backgrounds of users. Recommendation: Regularly assess and update the system's cultural responsiveness based on user feedback and changing demographics.",
+            4: '**Cultural and Linguistic Sensitivity:** <br>The online protection system exhibits good cultural and linguistic sensitivity, effectively catering to users from different cultures and language groups. Recommendation: Collaborate with cultural advisors and language experts to continuously improve and expand cultural and linguistic support.',
+            5: '**Cultural and Linguistic Sensitivity:** <br>The online protection system excels in cultural and linguistic sensitivity, providing a highly inclusive and accessible environment for all users. Recommendation: Share best practices in cultural responsiveness and regularly engage with communities to ensure ongoing alignment with their needs.'
         }
     },
     {
@@ -203,12 +203,12 @@ questions = [
             '5': 5
         },
         'recomendations': {
-            0: 'Recomendation for Question 2 - Answer 0',
-            1: 'Recomendation for Question 2 - Answer 1',
-            2: 'Recomendation for Question 2 - Answer 2',
-            3: 'Recomendation for Question 2 - Answer 3',
-            4: 'Recomendation for Question 2 - Answer 4',
-            5: 'Recomendation for Question 2 - Answer 5'
+            0: '**How relevevant is the "Accessibility:** <br> The online protection system lacks accessibility features, making it difficult for users with disabilities to access and utilize the system. Recommendation: Conduct an accessibility audit and implement necessary accommodations, such as alternative text, keyboard navigation, and compatibility with assistive technologies.',
+            1: '**How relevevant is the "Accessibility:** <br>The online protection system has limited accessibility features, requiring further improvements to ensure equal access for users with disabilities. Recommendation: Engage with accessibility experts and organizations to identify and address accessibility barriers across the system.',
+            2: '**How relevevant is the "Accessibility:** <br>The online protection system includes some accessibility features but can benefit from additional enhancements to improve usability for users with disabilities. Recommendation: Conduct user testing with individuals with disabilities to gather feedback and prioritize accessibility updates based on their needs.',
+            3: '**How relevevant is the "Accessibility:** <br>The online protection system demonstrates satisfactory accessibility, ensuring that users with disabilities can navigate and utilize the system with relative ease. Recommendation: Establish an accessibility feedback mechanism and regularly update accessibility features based on user input and evolving accessibility standards.',
+            4: '**How relevevant is the "Accessibility:** <br>The online protection system provides good accessibility, incorporating a range of features and accommodations to enable users with disabilities to fully participate. Recommendation: Seek recognition and certifications for accessibility compliance and collaborate with disability advocacy groups to continuously enhance accessibility.',
+            5: '**How relevevant is the "Accessibility:** <br>The online protection system excels in accessibility, implementing best practices and innovative solutions to ensure seamless access for users with disabilities. Recommendation: Share knowledge and expertise in accessible design to contribute to industry-wide advancements in digital accessibility.'
         }
     }
 ]

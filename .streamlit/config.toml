@@ -1,8 +1,0 @@
-[theme]
-base="custom_theme"
-primaryColor="#e65353"
-backgroundColor="#4069bd"
-secondaryBackgroundColor="#071152"
-
-[theme.textColor]
-primaryColor = "#FFFFFF"
