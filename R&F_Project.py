@@ -33,27 +33,25 @@ if uploaded_file is not None:
         fig, ax = plt.subplots(figsize=(8, 8), subplot_kw={'polar': True})
         ax.set_theta_offset(pi / 2)
         ax.set_theta_direction(-1)
-
         for expert in experts:
             if expert == "Average":
                 values = np.mean(transformed_df.iloc[:, 1:], axis=0).tolist()
             else:
                 values = transformed_df[transformed_df['ExpertID'] == expert].values[0][1:].tolist()
+            values += values[:1]
 
-        values += values[:1]
+            if expert == "Average":
+                ax.plot(angles, values, linewidth=1, linestyle='solid', label="Average")
+                ax.fill(angles, values, alpha=0.25)
+            else:
+                ax.plot(angles, values, linewidth=1, linestyle='solid', label=expert)
+                ax.fill(angles, values, alpha=0.25)
 
-        if expert == "Average":
-            ax.plot(angles, values, linewidth=1, linestyle='solid', label="Average")
-            ax.fill(angles, values, alpha=0.25)
-        else:
-            ax.plot(angles, values, linewidth=1, linestyle='solid', label=expert)
-            ax.fill(angles, values, alpha=0.25)
-
-    plt.xticks(angles[:-1], categories)
-    plt.yticks([2, 4, 6, 8, 10], ["2", "4", "6", "8", "10"], color="grey", size=10)
-    plt.ylim(0, 10)
-    plt.title("Radar Chart for Experts", size=12)
-    st.pyplot(fig)
+        plt.xticks(angles[:-1], categories)
+        plt.yticks([2, 4, 6, 8, 10], ["2", "4", "6", "8", "10"], color="grey", size=10)
+        plt.ylim(0, 10)
+        plt.title("Radar Chart for Experts", size=12)
+        st.pyplot(fig)
 
     expert_list = transformed_df['ExpertID'].tolist()
     expert_list.insert(0, "Average")
