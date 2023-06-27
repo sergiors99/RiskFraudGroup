@@ -221,7 +221,7 @@ hovers = {
 dictionary_values = list(hovers["hover"].values())
 
 st.title('UN Helpline Expert Survey')
-st.markdown('The following test aims to evaluate how well is your helpline performing, after answering these 10 questions, you will get a final score from 0 to 5, and a series of recomendations based on your answers')
+st.markdown('_The following test aims to evaluate how well is your helpline performing, after answering these 10 questions, you will get a final score from 0 to 5, and a series of recomendations based on your answers_')
 
 answers = {}
 for i, question in enumerate(questions):
