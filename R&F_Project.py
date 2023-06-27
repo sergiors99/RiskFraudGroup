@@ -13,7 +13,6 @@ questions = [
         'question': 'In which phase of the  do you feel your digital channel implementation is?',
         'weight': 0.077,
         'answers': {
-            '0. Risk management plan': 0,
             'Answer 1': 1,
             'Answer 2': 2,
             'Answer 3': 3,
@@ -33,7 +32,6 @@ questions = [
         'question': 'How complete is your technology stack for digital channels?',
         'weight': 0.098,
         'answers': {
-            '0. Technology review and enhancement': 0,
             'Answer 1': 1,
             'Answer 2': 2,
             'Answer 3': 3,
@@ -53,7 +51,6 @@ questions = [
         'question': 'How do you feel your fundraise strategy is  enough and steady to cover your cost short and long term?',
         'weight': 0.115,
         'answers': {
-            '0. Fundraising strategy development': 0,
             'Answer 1': 1,
             'Answer 2': 2,
             'Answer 3': 3,
@@ -73,7 +70,6 @@ questions = [
         'question': 'To what extent your helpline maintain confidentiality and ensure the privacy of children seeking help?',
         'weight': 0.159,
         'answers': {
-            '0. Security audit': 0,
             'Answer 1': 1,
             'Answer 2': 2,
             'Answer 3': 3,
@@ -93,7 +89,6 @@ questions = [
         'question': "How satisfied are you with the timeliness and responsiveness of helpline services in addressing children's needs?",
         'weight': 0.093,
         'answers': {
-            '0. Response time monitoring': 0,
             'Answer 1': 1,
             'Answer 2': 2,
             'Answer 3': 3,
@@ -113,7 +108,6 @@ questions = [
         'question': 'How confident are you in the overall quality and impact of helpline services for improving the well-being and safety of children?',
         'weight': 0.089,
         'answers': {
-            '0. Developing multi-platform accessibility': 0,
             'Answer 1': 1,
             'Answer 2': 2,
             'Answer 3': 3,
@@ -133,7 +127,6 @@ questions = [
         'question': 'How knowledgeable are the helpline staff about the specific issues and challenges faced by children in your country?',
         'weight': 0.051,
         'answers': {
-            '0. Staff training programs': 0,
             'Answer 1': 1,
             'Answer 2': 2,
             'Answer 3': 3,
@@ -153,7 +146,6 @@ questions = [
         'question': 'To what extent are helpline services tailored to meet the diverse cultural and linguistic needs of children in your country?',
         'weight': 0.161,
         'answers': {
-            '0. Diversity and inclusion training': 0,
             'Answer 1': 1,
             'Answer 2': 2,
             'Answer 3': 3,
@@ -173,7 +165,6 @@ questions = [
         'question': 'How effective are helplines in providing age-appropriate guidance and support to children based on their developmental stages (by adults or peers)?',
         'weight': 0.067,
         'answers': {
-            '0. Developmental training for staff': 0,
             'Answer 1': 1,
             'Answer 2': 2,
             'Answer 3': 3,
@@ -193,7 +184,6 @@ questions = [
         'question': 'How satisfied are you with the accessibility of helplines for children in terms of availability and ease of contact?',
         'weight': 0.09,
         'answers': {
-            '0. 24/7 Availability initiative': 0,
             'Answer 1': 1,
             'Answer 2': 2,
             'Answer 3': 3,
@@ -234,7 +224,7 @@ st.markdown('The following test aims to evaluate how well is your helpline perfo
 answers = {}
 for i, question in enumerate(questions):
     st.subheader(question['question'])
-    answer = st.selectbox(f'Select your answer\n{dictionary_values[i]}', list(question['answers'].keys()))
+    answer = st.selectbox(f'Select your answer for:\n{dictionary_values[i]}', list(question['answers'].keys()))
     answers[i] = {
         'answer': question['answers'][answer],
         'recomendation': question['recomendations'][question['answers'][answer]]
