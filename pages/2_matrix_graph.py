@@ -5,6 +5,7 @@ import numpy as np
 from math import pi
 
 st.sidebar.markdown("# Matrix Graph")
+st.sidebar.image("data/UN-Logo.png", use_column_width=True)
 
 st.title('Matrix Graph')
 st.markdown('_Upload ratings to our site and compare them against other members/experts_')
