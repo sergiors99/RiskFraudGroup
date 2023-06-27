@@ -1,11 +1,12 @@
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
+from matplotlib import pyplot as plt
 import numpy as np
 from math import pi
 from streamlit_extras.app_logo import add_logo
+from streamlit_extras.dataframe_explorer import dataframe_explorer
 
-#add_logo("data/UN_Logo.png", height=100)
+add_logo("data/UN_Logo.png", height=100)
 
 questions = [
     {
