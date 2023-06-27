@@ -226,13 +226,15 @@ hovers = {
     }
 }
 
+dictionary_values = list(hovers["hover"].values())
+
 st.title('Helpline Evaluation Test')
 st.markdown('The following test aims to evaluate how well is your helpline performing, after answering these 10 questions, you will get a final score from 0 to 5, and a series of recomendations based on your answers')
 
 answers = {}
 for i, question in enumerate(questions):
     st.subheader(question['question'])
-    answer = st.selectbox(f'Select your answer\n{hovers["hover"].keys}', list(question['answers'].keys()))
+    answer = st.selectbox(f'Select your answer\n{dictionary_values(i)}', list(question['answers'].keys()))
     answers[i] = {
         'answer': question['answers'][answer],
         'recomendation': question['recomendations'][question['answers'][answer]]
