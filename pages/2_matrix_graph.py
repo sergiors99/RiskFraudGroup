@@ -6,6 +6,10 @@ from math import pi
 
 st.sidebar.markdown("# Matrix Graph")
 
+st.title('Matrix Graph')
+st.markdown('_Upload ratings to our site and compare them against other members/experts_')
+
+
 uploaded_file = st.file_uploader("Please select a .csv file")
 
 if uploaded_file is not None:
