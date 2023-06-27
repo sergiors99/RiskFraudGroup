@@ -3,33 +3,16 @@ import pandas as pd
 from matplotlib import pyplot as plt
 import numpy as np
 from math import pi
-from streamlit_extras.app_logo import add_logo
 from streamlit_extras.dataframe_explorer import dataframe_explorer
+from PIL import Image
 
-def add_logo():
-    st.markdown(
-        """
-        <style>
-            [data-testid="stSidebarNav"] {
-                background-image: url(https://logos-world.net/wp-content/uploads/2021/11/UN-Logo.png);
-                background-repeat: no-repeat;
-                padding-top: 120px;
-                background-position: 20px 20px;
-            }
-            [data-testid="stSidebarNav"]::before {
-                content: "My Company Name";
-                margin-left: 20px;
-                margin-top: 20px;
-                font-size: 30px;
-                position: relative;
-                top: 100px;
-            }
-        </style>
-        """,
-        unsafe_allow_html=True,
-    )
+def add_logo(logo_path, width, height):
+    logo = Image.open(logo_path)
+    modified_logo = logo.resize((width, height))
+    return modified_logo
 
-add_logo
+my_logo = add_logo(logo_path="data/UN_Logo.png", width=50, height=60)
+st.sidebar.image(my_logo)
 
 st.sidebar.markdown("# UN POP Helpline")
 
