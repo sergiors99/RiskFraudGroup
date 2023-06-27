@@ -233,7 +233,11 @@ for i, question in enumerate(questions):
 final_score = sum(answer['answer'] * question['weight'] for question, answer in zip(questions, answers.values()))
 
 if answers is not None:
-    st.write("My value is:", answers)
+    answers_df = [item["answer"] for item in answers.values()]
+    answers_df_new = pd.DataFrame.from_dict(answers_df).transpose()
+    answers_df_new.columns = ['Digital Channel Launching Process', 'Technology– used/ in use/ future', 'Fundraise', 'Confidentiality', 'Responsiveness', 'User Experience', 'Staff expertise', 'Cultural and linguistic sensitivity', 'Age-appropriate support', 'Accessibility']
+    answers_df_new.insert(0, 'ExpertID', 'my_results')
+
 
 if st.button('Submit'):
     st.subheader('Final Score')
