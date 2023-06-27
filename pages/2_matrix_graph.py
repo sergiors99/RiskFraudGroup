@@ -5,6 +5,7 @@ import numpy as np
 from math import pi
 from streamlit_extras.dataframe_explorer import dataframe_explorer
 
+showWarningOnDirectExecution = False
 
 st.sidebar.markdown("# Matrix Graph")
 
