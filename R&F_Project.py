@@ -5,6 +5,7 @@ import numpy as np
 from math import pi
 from streamlit_extras.dataframe_explorer import dataframe_explorer
 
+st.set_page_config(page_title="UN POP Project", page_icon="data/favicon.ico", layout="centered", initial_sidebar_state="auto", menu_items=None)
 
 st.sidebar.markdown("# UN POP Helpline")
 
@@ -218,7 +219,7 @@ hovers = {
 
 dictionary_values = list(hovers["hover"].values())
 
-st.title('Helpline Evaluation Test')
+st.title('UN Helpline Expert Survey')
 st.markdown('The following test aims to evaluate how well is your helpline performing, after answering these 10 questions, you will get a final score from 0 to 5, and a series of recomendations based on your answers')
 
 answers = {}
