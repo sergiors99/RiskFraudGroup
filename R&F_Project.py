@@ -3,7 +3,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 from math import pi
-from streamlit_extras.dataframe_explorer import dataframe_explorer
 
 st.set_page_config(page_title="UN POP Project", page_icon="data/favicon.ico", layout="centered", initial_sidebar_state="auto", menu_items=None)
 
@@ -236,7 +235,7 @@ st.markdown('_The following survey aims to evaluate how well is your help line p
 answers = {}
 for i, question in enumerate(questions):
     st.subheader(question['question'])
-    answer = st.selectbox(f'Select your answer for:\n{dictionary_values[i]}', list(question['answers'].keys()))
+    answer = st.selectbox(f'Rating for:\n{dictionary_values[i]}', list(question['answers'].keys()))
     answers[i] = {
         'answer': question['answers'][answer],
         'recomendation': question['recomendations'][question['answers'][answer]]
