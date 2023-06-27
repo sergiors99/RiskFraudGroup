@@ -163,12 +163,12 @@ questions = [
             '5': 5
         },
         'recomendations': {
-            0: '**IT Infrastructure:** <br>',
-            1: '**IT Infrastructure:** <br>',
-            2: '**IT Infrastructure:** <br>',
-            3: '**IT Infrastructure:** <br>',
-            4: '**IT Infrastructure:** <br>',
-            5: '**IT Infrastructure:** <br>'
+            0: '**Cultural and Linguistic Sensitivity:** <br>The online protection system lacks cultural and linguistic sensitivity, failing to address the diverse needs of users from different backgrounds. Recommendation: Incorporate cultural competency training for staff members and ensure the availability of multilingual resources and support.',
+            1: '**Cultural and Linguistic Sensitivity:** <br>There is limited cultural and linguistic sensitivity in the online protection system, requiring improvements to ensure inclusivity. Recommendation: Conduct a cultural assessment and collaborate with diverse communities to incorporate their perspectives and address cultural and linguistic barriers.',
+            2: "**Cultural and Linguistic Sensitivity:** <br>The online protection system demonstrates average cultural and linguistic sensitivity but can benefit from further enhancements. Recommendation: Engage with multicultural organizations and language experts to review and improve the system's cultural responsiveness.",
+            3: "**Cultural and Linguistic Sensitivity:** <br>The online protection system shows satisfactory cultural and linguistic sensitivity, considering the diverse needs and backgrounds of users. Recommendation: Regularly assess and update the system's cultural responsiveness based on user feedback and changing demographics.",
+            4: '**Cultural and Linguistic Sensitivity:** <br>The online protection system exhibits good cultural and linguistic sensitivity, effectively catering to users from different cultures and language groups. Recommendation: Collaborate with cultural advisors and language experts to continuously improve and expand cultural and linguistic support.',
+            5: '**Cultural and Linguistic Sensitivity:** <br>The online protection system excels in cultural and linguistic sensitivity, providing a highly inclusive and accessible environment for all users. Recommendation: Share best practices in cultural responsiveness and regularly engage with communities to ensure ongoing alignment with their needs.'
         }
     },
     {
@@ -183,12 +183,12 @@ questions = [
             '5': 5
         },
         'recomendations': {
-            0: '**Cultural and Linguistic Sensitivity:** <br>The online protection system lacks cultural and linguistic sensitivity, failing to address the diverse needs of users from different backgrounds. Recommendation: Incorporate cultural competency training for staff members and ensure the availability of multilingual resources and support.',
-            1: '**Cultural and Linguistic Sensitivity:** <br>There is limited cultural and linguistic sensitivity in the online protection system, requiring improvements to ensure inclusivity. Recommendation: Conduct a cultural assessment and collaborate with diverse communities to incorporate their perspectives and address cultural and linguistic barriers.',
-            2: "**Cultural and Linguistic Sensitivity:** <br>The online protection system demonstrates average cultural and linguistic sensitivity but can benefit from further enhancements. Recommendation: Engage with multicultural organizations and language experts to review and improve the system's cultural responsiveness.",
-            3: "**Cultural and Linguistic Sensitivity:** <br>The online protection system shows satisfactory cultural and linguistic sensitivity, considering the diverse needs and backgrounds of users. Recommendation: Regularly assess and update the system's cultural responsiveness based on user feedback and changing demographics.",
-            4: '**Cultural and Linguistic Sensitivity:** <br>The online protection system exhibits good cultural and linguistic sensitivity, effectively catering to users from different cultures and language groups. Recommendation: Collaborate with cultural advisors and language experts to continuously improve and expand cultural and linguistic support.',
-            5: '**Cultural and Linguistic Sensitivity:** <br>The online protection system excels in cultural and linguistic sensitivity, providing a highly inclusive and accessible environment for all users. Recommendation: Share best practices in cultural responsiveness and regularly engage with communities to ensure ongoing alignment with their needs.'
+            0: '**Age-appropriate Support:** <br>The online protection system does not offer age-appropriate support, neglecting the unique needs and vulnerabilities of different age groups. Recommendation: Develop age-specific resources, guidelines, and support mechanisms to ensure appropriate assistance for users of all ages.',
+            1: '**Age-appropriate Support:** <br>The online protection system provides limited age-appropriate support, requiring additional measures to address the specific challenges faced by different age groups. Recommendation: Conduct research and consult child development experts to develop targeted interventions and tailored resources for each age group.',
+            2: '**Age-appropriate Support:** <br>The online protection system includes some age-appropriate support, but there is room for improvement in addressing the varying needs of users across different age groups. Recommendation: Continuously update and expand age-specific resources and ensure that user feedback informs ongoing enhancements.',
+            3: '**Age-appropriate Support:** <br>The online protection system offers satisfactory age-appropriate support, recognizing and addressing the distinct requirements of users at different stages of development. Recommendation: Regularly evaluate and update age-specific resources to ensure they remain relevant and effective.',
+            4: "**Age-appropriate Support:** <br>The online protection system provides good age-appropriate support, catering well to the specific needs and vulnerabilities of users across various age groups. Recommendation: Share best practices in age-specific support and collaborate with child development experts to further enhance the system's offerings.",
+            5: '**Age-appropriate Support:** <br>The online protection system excels in providing age-appropriate support, employing evidence-based approaches that effectively meet the unique requirements of users at different ages. Recommendation: Continue to lead in the field of age-specific support by conducting research, piloting innovative interventions, and sharing knowledge with other organizations.'
         }
     },
     {
