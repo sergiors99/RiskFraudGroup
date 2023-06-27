@@ -5,6 +5,31 @@ import numpy as np
 from math import pi
 from streamlit_extras.dataframe_explorer import dataframe_explorer
 
+file = open(".../data/UN-Logo.png", "rb")
+contents = file.read()
+img_str = base64.b64encode(contents).decode("utf-8")
+buffer = io.BytesIO()
+file.close()
+img_data = base64.b64decode(img_str)
+img = Image.open(io.BytesIO(img_data))
+resized_img = img.resize((150, 60))  # x, y
+resized_img.save(buffer, format="PNG")
+img_b64 = base64.b64encode(buffer.getvalue()).decode("utf-8")
+
+st.markdown(
+        f"""
+        <style>
+            [data-testid="stSidebarNav"] {{
+                background-image: url('data:image/png;base64,{img_b64}');
+                background-repeat: no-repeat;
+                padding-top: 50px;
+                background-position: 100px 50px;
+            }}
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
+
 st.sidebar.markdown("# UN POP Helpline")
 
 questions = [
@@ -210,31 +235,27 @@ questions = [
     }
 ]
 
-background_image_url = 'data/UN_Logo.png'
+st.title('Helpline Evaluation Test')
+st.markdown('The following test aims to evaluate how well is your helpline performing, after answering these 10 questions, you will get a final score from 0 to 5, and a series of recomendations based on your answers')
 
-def app():
-    st.title('Helpline Evaluation Test')
-    st.markdown('The following test aims to evaluate how well is your helpline performing, after answering these 10 questions, you will get a final score from 0 to 5, and a series of recomendations based on your answers')
+answers = {}
+for i, question in enumerate(questions):
+    st.subheader(question['question'])
+    answer = st.selectbox('Select your answer', list(question['answers'].keys()))
+    answers[i] = {
+        'answer': question['answers'][answer],
+        'recomendation': question['recomendations'][question['answers'][answer]]
+    }
 
-    answers = {}
-    for i, question in enumerate(questions):
-        st.subheader(question['question'])
-        answer = st.selectbox('Select your answer', list(question['answers'].keys()))
-        answers[i] = {
-            'answer': question['answers'][answer],
-            'recomendation': question['recomendations'][question['answers'][answer]]
-        }
+final_score = sum(answer['answer'] * question['weight'] for question, answer in zip(questions, answers.values()))
 
-    # Calculate final score
-    final_score = sum(answer['answer'] * question['weight'] for question, answer in zip(questions, answers.values()))
+if st.button('Submit'):
+    st.subheader('Final Score')
+    st.write(final_score)
 
-    if st.button('Submit'):
-        st.subheader('Final Score')
-        st.write(final_score)
-
-        st.subheader('Recommendations')
-        for i, answer in answers.items():
-            st.markdown(f"{answer['recomendation']}", unsafe_allow_html=True)
+    st.subheader('Recommendations')
+    for i, answer in answers.items():
+        st.markdown(f"{answer['recomendation']}", unsafe_allow_html=True)
 
 if __name__ == '__main__':
     app()
