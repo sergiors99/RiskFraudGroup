@@ -4,6 +4,9 @@ from matplotlib import pyplot as plt
 import numpy as np
 from math import pi
 from streamlit_extras.dataframe_explorer import dataframe_explorer
+import io
+from PIL import Image
+import base64
 
 file = open(".../data/UN-Logo.png", "rb")
 contents = file.read()
