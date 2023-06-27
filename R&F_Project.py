@@ -29,7 +29,7 @@ def add_logo():
         unsafe_allow_html=True,
     )
 
-add_logo("data/UN_Logo.png", height=100)
+add_logo
 
 st.sidebar.markdown("# UN POP Helpline")
 
