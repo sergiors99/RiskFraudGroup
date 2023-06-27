@@ -232,6 +232,8 @@ for i, question in enumerate(questions):
 
 final_score = sum(answer['answer'] * question['weight'] for question, answer in zip(questions, answers.values()))
 
+st.write("My value is:", answers)
+
 if st.button('Submit'):
     st.subheader('Final Score')
     st.write(final_score)
