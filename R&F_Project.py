@@ -237,6 +237,9 @@ if answers is not None:
     answers_df_new = pd.DataFrame.from_dict(answers_df).transpose()
     answers_df_new.columns = ['Digital Channel Launching Process', 'Technology– used/ in use/ future', 'Fundraise', 'Confidentiality', 'Responsiveness', 'User Experience', 'Staff expertise', 'Cultural and linguistic sensitivity', 'Age-appropriate support', 'Accessibility']
     answers_df_new.insert(0, 'ExpertID', 'my_results')
+    csv = answers_df_new.to_csv(index=False)
+    st.download_button("Download your results",csv,"file.csv","text/csv",key='download-csv'
+)
 
 
 if st.button('Submit'):
