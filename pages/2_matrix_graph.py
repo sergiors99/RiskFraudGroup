@@ -58,5 +58,3 @@ if uploaded_file is not None:
     expert_list.insert(0, "Average")
     selected_experts = st.multiselect("Select Experts:", expert_list, default=["Average"])
     update_chart(selected_experts)
-
-st.plotly_chart(selected_experts, use_container_width=False, sharing="streamlit", theme="streamlit")
