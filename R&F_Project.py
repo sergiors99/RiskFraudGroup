@@ -9,25 +9,24 @@ st.sidebar.markdown("# UN POP Helpline")
 
 uploaded_file = st.file_uploader("Please select a .csv file")
 
-data = pd.read_csv(uploaded_file)
+if uploaded_file is not None:
+    data = pd.read_csv(uploaded_file)
+    df = pd.DataFrame(data)
+    def transform_priority(col):
+        if col.name == 'ExpertID':
+            return col
+        else:
+            return 10 - (col * 2)
 
-df = pd.DataFrame(data)
+    transformed_df = df.copy()
+    priority_columns = df.columns[1:]
+    transformed_df[priority_columns] = transformed_df[priority_columns].apply(transform_priority)
 
-def transform_priority(col):
-    if col.name == 'ExpertID':
-        return col
-    else:
-        return 10 - (col * 2)
+    categories = list(transformed_df.columns[1:])
+    N = len(categories)
 
-transformed_df = df.copy()
-priority_columns = df.columns[1:]
-transformed_df[priority_columns] = transformed_df[priority_columns].apply(transform_priority)
-
-categories = list(transformed_df.columns[1:])
-N = len(categories)
-
-angles = [n / float(N) * 2 * pi for n in range(N)]
-angles += angles[:1]
+    angles = [n / float(N) * 2 * pi for n in range(N)]
+    angles += angles[:1]
 
 questions = [
     {
