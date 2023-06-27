@@ -9,13 +9,13 @@ st.set_page_config(page_title="UN POP Project", page_icon="data/favicon.ico", la
 
 st.sidebar.markdown("# UN POP Helpline")
 st.sidebar.image("data/UN-Logo.png", use_column_width=True)
-st.set_theme('custom_theme')
 
 questions = [
     {
         'question': 'In which phase of the  do you feel your digital channel implementation is?',
         'weight': 0.077,
         'answers': {
+            '0': 0,
             '1': 1,
             '2': 2,
             '3': 3,
@@ -35,6 +35,7 @@ questions = [
         'question': 'How complete is your technology stack for digital channels?',
         'weight': 0.098,
         'answers': {
+            '0': 0,
             '1': 1,
             '2': 2,
             '3': 3,
@@ -54,6 +55,7 @@ questions = [
         'question': 'How do you feel your fundraise strategy is  enough and steady to cover your cost short and long term?',
         'weight': 0.115,
         'answers': {
+            '0': 0,
             '1': 1,
             '2': 2,
             '3': 3,
@@ -73,6 +75,7 @@ questions = [
         'question': 'To what extent your helpline maintain confidentiality and ensure the privacy of children seeking help?',
         'weight': 0.159,
         'answers': {
+            '0': 0,
             '1': 1,
             '2': 2,
             '3': 3,
@@ -92,6 +95,7 @@ questions = [
         'question': "How satisfied are you with the timeliness and responsiveness of helpline services in addressing children's needs?",
         'weight': 0.093,
         'answers': {
+            '0': 0,
             '1': 1,
             '2': 2,
             '3': 3,
@@ -111,6 +115,7 @@ questions = [
         'question': 'How confident are you in the overall quality and impact of helpline services for improving the well-being and safety of children?',
         'weight': 0.089,
         'answers': {
+            '0': 0,
             '1': 1,
             '2': 2,
             '3': 3,
@@ -130,6 +135,7 @@ questions = [
         'question': 'How knowledgeable are the helpline staff about the specific issues and challenges faced by children in your country?',
         'weight': 0.051,
         'answers': {
+            '0': 0,
             '1': 1,
             '2': 2,
             '3': 3,
@@ -149,6 +155,7 @@ questions = [
         'question': 'To what extent are helpline services tailored to meet the diverse cultural and linguistic needs of children in your country?',
         'weight': 0.161,
         'answers': {
+            '0': 0,
             '1': 1,
             '2': 2,
             '3': 3,
@@ -168,6 +175,7 @@ questions = [
         'question': 'How effective are helplines in providing age-appropriate guidance and support to children based on their developmental stages (by adults or peers)?',
         'weight': 0.067,
         'answers': {
+            '0': 0,
             '1': 1,
             '2': 2,
             '3': 3,
@@ -187,6 +195,7 @@ questions = [
         'question': 'How satisfied are you with the accessibility of helplines for children in terms of availability and ease of contact?',
         'weight': 0.09,
         'answers': {
+            '0': 0,
             '1': 1,
             '2': 2,
             '3': 3,
