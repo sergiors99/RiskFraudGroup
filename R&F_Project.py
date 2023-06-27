@@ -4,15 +4,34 @@ from matplotlib import pyplot as plt
 import numpy as np
 from math import pi
 from streamlit_extras.dataframe_explorer import dataframe_explorer
+import io
 from PIL import Image
+import base64
 
-def add_logo(logo_path, width, height):
-    logo = Image.open(logo_path)
-    modified_logo = logo.resize((width, height))
-    return modified_logo
+file = open(".../data/UN-Logo.png", "rb")
+contents = file.read()
+img_str = base64.b64encode(contents).decode("utf-8")
+buffer = io.BytesIO()
+file.close()
+img_data = base64.b64decode(img_str)
+img = Image.open(io.BytesIO(img_data))
+resized_img = img.resize((150, 60))  # x, y
+resized_img.save(buffer, format="PNG")
+img_b64 = base64.b64encode(buffer.getvalue()).decode("utf-8")
 
-my_logo = add_logo(logo_path="data/UN_Logo.png", width=50, height=60)
-st.sidebar.image(my_logo)
+st.markdown(
+        f"""
+        <style>
+            [data-testid="stSidebarNav"] {{
+                background-image: url('data:image/png;base64,{img_b64}');
+                background-repeat: no-repeat;
+                padding-top: 50px;
+                background-position: 100px 50px;
+            }}
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
 
 st.sidebar.markdown("# UN POP Helpline")
 
