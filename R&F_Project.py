@@ -260,8 +260,8 @@ if answers is not None:
     csv = answers_df_new.to_csv(index=False)
     st.download_button("Download your results",csv,"results.csv","text/csv",key='download-csv')
 
-if answers_df_new is not None:
-    data = pd.read_csv(answers_df_new)
+if csv is not None:
+    data = pd.read_csv(csv)
     df = pd.DataFrame(data)
     def transform_priority(col):
         if col.name == 'ExpertID':
