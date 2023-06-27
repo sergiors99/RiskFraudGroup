@@ -256,6 +256,3 @@ if st.button('Submit'):
     st.subheader('Recommendations')
     for i, answer in answers.items():
         st.markdown(f"{answer['recomendation']}", unsafe_allow_html=True)
-
-if __name__ == '__main__':
-    app()
