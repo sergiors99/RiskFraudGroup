@@ -4,6 +4,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 from math import pi
 
+st.set_page_config(page_title="Matrix Graph", page_icon="data/favicon.ico", layout="centered", initial_sidebar_state="auto", menu_items=None)
+
 st.sidebar.markdown("# Matrix Graph")
 st.sidebar.image("data/UN-Logo.png", use_column_width=True)
 

@@ -7,15 +7,6 @@ from streamlit_extras.dataframe_explorer import dataframe_explorer
 
 st.set_page_config(page_title="UN POP Project", page_icon="data/favicon.ico", layout="centered", initial_sidebar_state="auto", menu_items=None)
 
-st.markdown('''
-    <style>
-        body {
-            background-color: #333;
-            color: #FFF;
-        }
-    </style>
-''', unsafe_allow_html=True)
-
 st.sidebar.markdown("# UN POP Helpline")
 st.sidebar.image("data/UN-Logo.png", use_column_width=True)
 
