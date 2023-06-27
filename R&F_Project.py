@@ -227,7 +227,7 @@ st.markdown('The following test aims to evaluate how well is your helpline perfo
 answers = {}
 for i, question in enumerate(questions):
     st.subheader(question['question'])
-    answer = st.selectbox('Select your answer', print(question['hover']), list(question['answers'].keys()))
+    answer = st.selectbox('Select your answer', question['hover'], list(question['answers'].keys()))
     answers[i] = {
         'answer': question['answers'][answer],
         'recomendation': question['recomendations'][question['answers'][answer]]
