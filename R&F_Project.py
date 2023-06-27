@@ -9,7 +9,7 @@ st.set_page_config(page_title="UN POP Project", page_icon="data/favicon.ico", la
 
 st.sidebar.markdown("# UN POP Helpline")
 st.sidebar.image("data/UN-Logo.png", use_column_width=True)
-st.set_theme('dark')
+st.set_theme('custom_theme')
 
 questions = [
     {
