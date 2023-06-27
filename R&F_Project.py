@@ -8,6 +8,7 @@ from streamlit_extras.dataframe_explorer import dataframe_explorer
 st.set_page_config(page_title="UN POP Project", page_icon="data/favicon.ico", layout="centered", initial_sidebar_state="auto", menu_items=None)
 
 st.sidebar.markdown("# UN POP Helpline")
+st.sidebar.image("data/UN-Logo.png", use_column_width=True)
 
 questions = [
     {
