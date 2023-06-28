@@ -243,9 +243,13 @@ answers = {}
 for i, question in enumerate(questions):
     st.subheader(question['question'])
     answer = st.slider(f'Rating for:\n{dictionary_values[i]}', 0, 5, 0)
-    answers[i] = {
-        'answer': question['answers'][answer],
-        'recomendation': question['recomendations'][question['answers'][answer]]}
+    if answer in question['answers']:
+        answers[i] = {
+            'answer': question['answers'][answer],
+            'recomendation': question['recomendations'][question['answers'][answer]]
+        }
+    else:
+        st.write("Invalid answer selected.")
 
 final_score = sum(answer['answer'] * question['weight'] for question, answer in zip(questions, answers.values()))
 
