@@ -245,6 +245,7 @@ final_score = sum(answer['answer'] * question['weight'] for question, answer in 
 if st.button('Submit'):
     st.subheader('Final Score')
     st.write(final_score)
+    st.markdown("This is the score calculated based on your answers, further bewlow we are giving some recommendations to improve your help line project")
 
     st.subheader('Recommendations')
     for i, answer in answers.items():
