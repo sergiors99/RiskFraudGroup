@@ -245,8 +245,7 @@ for i, question in enumerate(questions):
     answer = st.slider(f'Rating for:\n{dictionary_values[i]}', list(question['answers'].keys()))
     answers[i] = {
         'answer': question['answers'][answer],
-        'recomendation': question['recomendations'][question['answers'][answer]]
-    }
+        'recomendation': question['recomendations'][question['answers'][answer]]}
 
 final_score = sum(answer['answer'] * question['weight'] for question, answer in zip(questions, answers.values()))
 
