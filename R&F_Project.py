@@ -242,7 +242,7 @@ answers = {}
 
 for i, question in enumerate(questions):
     st.subheader(question['question'])
-    answer = st.slider(f'Rating for:\n{dictionary_values[i]}', 0, 130, 25)
+    answer = st.slider(f'Rating for:\n{dictionary_values[i]}', 0, 5, 0)
     answers[i] = {
         'answer': question['answers'][answer],
         'recomendation': question['recomendations'][question['answers'][answer]]}
