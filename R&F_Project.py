@@ -22,12 +22,12 @@ questions = [
             '5': 5
         },
         'recomendations': {
-            0: "**IT Infrastructure:** <br>The digital channel launching process is poorly organized and lacks clear guidelines or procedures. Recommendation: Establish clear guidelines and procedures for launching digital channels, including documentation and training materials.",
-            1: "**IT Infrastructure:** <br>The digital channel launching process is somewhat disorganized, and guidelines are not consistently followed. Recommendation: Review and refine the launching process to ensure better organization and adherence to guidelines.",
-            2: "**IT Infrastructure:** <br>The digital channel launching process is average, but there is room for improvement in terms of efficiency and effectiveness. Recommendation: Identify areas of improvement and implement necessary changes to streamline the launching process.",
-            3: "**IT Infrastructure:** <br>The digital channel launching process is well-defined and generally followed. Recommendation: Continuously monitor and update the launching process to maintain its effectiveness.",
-            4: "**IT Infrastructure:** <br>The digital channel launching process is well-organized and documented. Recommendation: Regularly review and update the launching process to incorporate best practices and emerging technologies.",
-            5: "**IT Infrastructure:** <br>The digital channel launching process is highly efficient, standardized, and continuously improved. Recommendation: Share the best practices and lessons learned with other organizations to promote excellence in digital channel launching."
+            0: "**Digital Channel Launching Process:** <br>The digital channel launching process is poorly organized and lacks clear guidelines or procedures. Recommendation: Establish clear guidelines and procedures for launching digital channels, including documentation and training materials.",
+            1: "**Digital Channel Launching Process:** <br>The digital channel launching process is somewhat disorganized, and guidelines are not consistently followed. Recommendation: Review and refine the launching process to ensure better organization and adherence to guidelines.",
+            2: "**Digital Channel Launching Process:** <br>The digital channel launching process is average, but there is room for improvement in terms of efficiency and effectiveness. Recommendation: Identify areas of improvement and implement necessary changes to streamline the launching process.",
+            3: "**Digital Channel Launching Process:** <br>The digital channel launching process is well-defined and generally followed. Recommendation: Continuously monitor and update the launching process to maintain its effectiveness.",
+            4: "**Digital Channel Launching Process:** <br>The digital channel launching process is well-organized and documented. Recommendation: Regularly review and update the launching process to incorporate best practices and emerging technologies.",
+            5: "**Digital Channel Launching Process:** <br>The digital channel launching process is highly efficient, standardized, and continuously improved. Recommendation: Share the best practices and lessons learned with other organizations to promote excellence in digital channel launching."
         }
     },
     {
