@@ -233,23 +233,12 @@ st.title('UN Helpline Expert Survey')
 st.markdown('_The following survey aims to evaluate how well is your help line project is performing, after rating these ten questions, you will get a final score ranging from 0 to 5, and a series of recomendations we feel may be useful, based on your answers\nYou can then download your results and plot them on our site_')
 
 answers = {}
-#for i, question in enumerate(questions):
-    #st.subheader(question['question'])
-    #answer = st.selectbox(f'Rating for:\n{dictionary_values[i]}', list(question['answers'].keys()))
-    #answers[i] = {
-        #'answer': question['answers'][answer],
-        #'recomendation': question['recomendations'][question['answers'][answer]]}
-
 for i, question in enumerate(questions):
     st.subheader(question['question'])
-    answer = st.slider(f'Rating for:\n{dictionary_values[i]}', 0, 5, 0)
-    if answer in question['answers']:
-        answers[i] = {
-            'answer': question['answers'][answer],
-            'recomendation': question['recomendations'][question['answers'][answer]]
-        }
-    else:
-        st.write("Invalid answer selected.")
+    answer = st.selectbox(f'Rating for:\n{dictionary_values[i]}', list(question['answers'].keys()))
+    answers[i] = {
+        'answer': question['answers'][answer],
+        'recomendation': question['recomendations'][question['answers'][answer]]}
 
 final_score = sum(answer['answer'] * question['weight'] for question, answer in zip(questions, answers.values()))
 
